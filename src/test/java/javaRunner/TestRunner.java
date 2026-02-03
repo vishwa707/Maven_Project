@@ -8,6 +8,6 @@ import io.cucumber.testng.CucumberOptions;
 		glue = {"steps"},
 		plugin = {"pretty","html:target/loginreport.html"}
 )
-public class braverunner extends AbstractTestNGCucumberTests {
+public class TestRunner extends AbstractTestNGCucumberTests {
 
 }

@@ -1,4 +1,4 @@
-javaRunner\hrmrunner.class
+javaRunner\TestRunner.class
 steps\hrmlogin.class
 pages\ProductPage.class
 pages\Homepage.class

@@ -1,32 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-02T11:06:24 IST" name="Surefire suite" finished-at="2026-02-02T11:06:24 IST" duration-ms="35">
+  <suite started-at="2026-02-03T12:28:53 IST" name="Surefire suite" finished-at="2026-02-03T12:30:05 IST" duration-ms="71563">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:javaRunner.TestRunner@6b26e945]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2026-02-02T11:06:24 IST" name="Surefire test" finished-at="2026-02-02T11:06:24 IST" duration-ms="35">
+    <test started-at="2026-02-03T12:28:53 IST" name="Surefire test" finished-at="2026-02-03T12:30:05 IST" duration-ms="71563">
+      <class name="javaRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:javaRunner.TestRunner@6b26e945]" started-at="2026-02-03T12:28:53 IST" name="setUpClass" finished-at="2026-02-03T12:28:54 IST" duration-ms="485" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29149030]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:javaRunner.TestRunner@6b26e945]" started-at="2026-02-03T12:28:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-03T12:29:22 IST" duration-ms="28090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Successful Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:javaRunner.TestRunner@6b26e945]" started-at="2026-02-03T12:29:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-03T12:29:48 IST" duration-ms="25768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Unsuccessful Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:javaRunner.TestRunner@6b26e945]" started-at="2026-02-03T12:29:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-03T12:30:05 IST" duration-ms="17166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate empty credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:javaRunner.TestRunner@6b26e945]" started-at="2026-02-03T12:30:05 IST" name="tearDownClass" finished-at="2026-02-03T12:30:05 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- javaRunner.TestRunner -->
       <class name="testNGP.SimpleTest">
-        <test-method signature="test1()[pri:0, instance:testNGP.SimpleTest@475e586c]" started-at="2026-02-02T11:06:24 IST" name="test1" finished-at="2026-02-02T11:06:24 IST" duration-ms="5" status="PASS">
+        <test-method signature="test1()[pri:0, instance:testNGP.SimpleTest@56de5251]" started-at="2026-02-03T12:30:05 IST" name="test1" finished-at="2026-02-03T12:30:05 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method signature="test2()[pri:0, instance:testNGP.SimpleTest@475e586c]" started-at="2026-02-02T11:06:24 IST" name="test2" finished-at="2026-02-02T11:06:24 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method signature="test3()[pri:0, instance:testNGP.SimpleTest@475e586c]" started-at="2026-02-02T11:06:24 IST" name="test3" finished-at="2026-02-02T11:06:24 IST" duration-ms="0" status="PASS">
+        <test-method signature="test3()[pri:0, instance:testNGP.SimpleTest@56de5251]" started-at="2026-02-03T12:30:05 IST" name="test3" finished-at="2026-02-03T12:30:05 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method signature="test4()[pri:0, instance:testNGP.SimpleTest@475e586c]" started-at="2026-02-02T11:06:24 IST" name="test4" finished-at="2026-02-02T11:06:24 IST" duration-ms="0" status="PASS">
+        <test-method signature="test2()[pri:0, instance:testNGP.SimpleTest@56de5251]" started-at="2026-02-03T12:30:05 IST" name="test2" finished-at="2026-02-03T12:30:05 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test4 -->
-        <test-method signature="test5()[pri:0, instance:testNGP.SimpleTest@475e586c]" started-at="2026-02-02T11:06:24 IST" name="test5" finished-at="2026-02-02T11:06:24 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- test2 -->
+        <test-method signature="test5()[pri:0, instance:testNGP.SimpleTest@56de5251]" started-at="2026-02-03T12:30:05 IST" name="test5" finished-at="2026-02-03T12:30:05 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test5 -->
+        <test-method signature="test4()[pri:0, instance:testNGP.SimpleTest@56de5251]" started-at="2026-02-03T12:30:05 IST" name="test4" finished-at="2026-02-03T12:30:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
       </class> <!-- testNGP.SimpleTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->

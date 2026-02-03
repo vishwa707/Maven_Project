@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: testNGP.SimpleTest
+Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.339 s -- in testNGP.SimpleTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 71.88 s -- in TestSuite
