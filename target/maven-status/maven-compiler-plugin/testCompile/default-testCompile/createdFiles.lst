@@ -1,0 +1,11 @@
+javaRunner\hrmrunner.class
+steps\hrmlogin.class
+pages\ProductPage.class
+pages\Homepage.class
+testNGP\Amazon.class
+testNGP\Hrm.class
+pages\CartPage.class
+pages\SearchPage.class
+steps\Hooks.class
+basePkg\BaseClass.class
+testNGP\SimpleTest.class
